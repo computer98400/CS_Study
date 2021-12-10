@@ -1,7 +1,34 @@
+lesson 1
+1. select title from movies;
+2. select director from movies;
+3. select title, director from movies;
+4. select title, year from movies;
+5. select * from movies;
 
+lesson 2
+1. select * from movies where id=6;
+2. select * from movies where year between 2000 to 2010;
+3. select * from movies where year not between 2000 and 2010;
+4. select * from movies limit 5;
 
+lesson 3
+1. SELECT * FROM movies where title like "Toy Story%";
+2. SELECT * FROM movies where director like "John Lasseter";
+3. SELECT * FROM movies where director != "John Lasseter";
+4. SELECT * FROM movies where title like "WALL%";
 
+lesson 4
+1. select distinct director from movies order by director asc;
+2. select * from movies order by year desc limit 4;
+3. select * from movies order by title limit 5;
+4. select * from movies order by title asc limit 5 offset 5;
 
+lesson 5
+1. select * from North_american_cities where country="Canada";
+2. select * from North_american_cities where country="United States" order by latitude desc;
+3. select * from North_american_cities where longitude < (select longitude from North_american_cities where city = "Chicago") order by longitude;
+4. select * from North_american_cities where country ="Mexico" order by population desc limit 2;
+5. select * from North_american_cities where country ="United States" order by population desc limit 2 offset 2;
 
 lesson 6
 1. select * from movies inner join boxoffice on id= movie_id;
