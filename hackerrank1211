@@ -1,0 +1,27 @@
+Revising the Select Query I
+select * from city where population > 100000 and countrycod = "USA"
+
+Revising the Select Query II
+select name from city where population > 120000 and countrycode = "USA"
+
+select ALL
+select * from city;
+
+Select By ID
+select * from city where id=1661;
+
+Japanese Cities' Attributes
+select * from city where countrycode = "JPN"
+
+Japanese Cities' Names
+select name from city whre countrycode = "JPN";
+
+Weather Observation Station 1
+select city,state from station;
+
+Weather Observation Station 3
+select distinct city from station where mod(id,2)=0 order by city;
+
+Weather Observation Station 4
+select count(*)-count(distinct city) from station;
+
