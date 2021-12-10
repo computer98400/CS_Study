@@ -60,6 +60,5 @@ lesson 18
 1. drop table movies;
 2. drop table boxoffice;
 
-<h3>Finish</h3>
+<h2>Finish</h2>
 
-4. 
