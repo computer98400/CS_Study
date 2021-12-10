@@ -1,3 +1,5 @@
+<h1>SQLBolt study</h1>
+
 lesson 1
 1. select title from movies;
 2. select director from movies;
