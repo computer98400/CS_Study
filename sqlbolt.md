@@ -36,3 +36,30 @@ lesson 12
 1. select director, count(*) from movies group by director;
 2. select director, sum(domestic_sales,international_sales) from movies left join boxoffice on movie_id = id group by director;
 
+lesson 13
+1. insert into movies values (null,"Toy Story 4","Lee UnKrich", "2022","111");
+2. insert into boxoffice values (15,8.7,340000000,270000000);
+
+lesson 14
+1. update movies set director ="John Lasseter" where title = "A Bug's Life";
+2. update movies set year = 1999 where title = "Toy Story 2";
+3. update movies set title = "Toy Story 3", director="Lee Unkrich" where id = 11;
+
+lesson 15
+1. delete from movies where year < 2005;
+2. delete from movies where director = "Andrew Stanton";
+
+lesson 16
+1. create table Database (Name text, Version float, Download_count Integer, auto_increments);
+
+lesson 17
+1. alter table movies add Aspect_ratio float;
+2. alter table movies add Language text default "english";
+
+lesson 18
+1. drop table movies;
+2. drop table boxoffice;
+
+<h3>Finish</h3>
+
+4. 
